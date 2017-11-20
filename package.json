@@ -1,0 +1,21 @@
+{
+  "name": "WebpackWTF",
+  "description": "Webpack: What's This For?",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "@rjpcal",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./build && webpack --config internals/webpack.config.js --color -p --progress"
+  },
+  "dependencies": {
+    "file-loader": "^1.1.5",
+    "git-revision-webpack-plugin": "^2.5.1",
+    "rimraf": "^2.6.2",
+    "text-transform-loader": "^2.0.0",
+    "webpack": "^3.8.1"
+  }
+}
